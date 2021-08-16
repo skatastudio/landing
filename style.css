@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+  font-family: "Pilowlava";
+  src: url("https://cdn.glitch.com/27b6f11b-8154-4134-b46f-83829b1bf42e%2FPilowlava-Regular.woff2?v=1629095353513")
+      format("woff2"),
+    url("https://cdn.glitch.com/27b6f11b-8154-4134-b46f-83829b1bf42e%2FPilowlava-Regular.woff?v=1629095353462")
+      format("woff");
+}
+
+::selection {
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://cdn.glitch.com/27b6f11b-8154-4134-b46f-83829b1bf42e%2Fbg.png?v=1629095114949");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Pilowlava", sans-serif;
+  font-size: 6em;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5em;
+}
